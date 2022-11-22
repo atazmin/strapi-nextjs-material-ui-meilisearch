@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_text_basic_texts",
+  "info": {
+    "displayName": "textCard",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

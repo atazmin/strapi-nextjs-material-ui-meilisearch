@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_show_collection_types_installations",
+  "info": {
+    "displayName": "installations",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "isDisplayInstallations": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_accordion_accordions",
+  "info": {
+    "displayName": "accordion",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "summaries": {
+      "displayName": "summaries",
+      "type": "component",
+      "repeatable": true,
+      "component": "accordion.summaries"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_social_media_social_medias",
+  "info": {
+    "displayName": "social-media",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "facebookTitle": {
+      "type": "string"
+    },
+    "facebookDescription": {
+      "type": "text"
+    },
+    "facebookImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "twitterTitle": {
+      "type": "string"
+    },
+    "twitterDescription": {
+      "type": "text"
+    },
+    "twitterImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

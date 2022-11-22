@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_sitewides",
+  "info": {
+    "displayName": "sitewide",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "siteName": {
+      "type": "string",
+      "required": true
+    },
+    "siteLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": true
+    },
+    "addressDetails": {
+      "type": "string",
+      "required": true
+    },
+    "addressMapLink": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

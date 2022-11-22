@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_text_rich_texts",
+  "info": {
+    "displayName": "richText",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "isCentered": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

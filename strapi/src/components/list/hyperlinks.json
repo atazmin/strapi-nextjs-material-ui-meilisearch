@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_list_hyperlinks",
+  "info": {
+    "displayName": "hyperlinks",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "hyperlink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button"
+    }
+  }
+}

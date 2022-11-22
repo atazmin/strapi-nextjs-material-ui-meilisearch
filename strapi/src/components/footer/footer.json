@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "eventCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.text-card"
+    },
+    "textCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.basic-text"
+    },
+    "isShowWebsiteCredit": {
+      "type": "boolean",
+      "default": false
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "isShowNewsletterForm": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

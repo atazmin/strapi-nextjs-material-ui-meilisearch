@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_image_image_lists",
+  "info": {
+    "displayName": "imageList",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.images"
+    }
+  }
+}

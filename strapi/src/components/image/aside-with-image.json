@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_aside_with_image_aside_with_images",
+  "info": {
+    "displayName": "asideWithImage",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subHeading": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "isContentReversed": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "artist_pages",
+  "info": {
+    "singularName": "artist-page",
+    "pluralName": "artist-pages",
+    "displayName": "ArtistPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "head.seo"
+    },
+    "openGraph": {
+      "type": "component",
+      "repeatable": false,
+      "component": "head.open-graph"
+    }
+  }
+}

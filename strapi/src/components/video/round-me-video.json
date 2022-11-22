@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_video_round_me_videos",
+  "info": {
+    "displayName": "roundMeVideo",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "iframeSource": {
+      "type": "string"
+    }
+  }
+}

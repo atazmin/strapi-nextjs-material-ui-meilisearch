@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_hero_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "descriptionEmphasis": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://eva-reynolds-strapi.herokuapp.com/sitemap/index.xml

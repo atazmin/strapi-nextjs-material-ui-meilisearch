@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_image_gallery_image_galleries",
+  "info": {
+    "displayName": "imageGallery",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "isCentered": {
+      "type": "boolean",
+      "default": false
+    },
+    "isSpaced": {
+      "type": "boolean",
+      "default": true
+    },
+    "isFullwidth": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

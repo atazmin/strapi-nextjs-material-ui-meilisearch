@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_head_open_graphs",
+  "info": {
+    "displayName": "openGraph",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ogTitle": {
+      "type": "string",
+      "required": true
+    },
+    "ogDescription": {
+      "type": "text",
+      "required": true
+    },
+    "ogImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

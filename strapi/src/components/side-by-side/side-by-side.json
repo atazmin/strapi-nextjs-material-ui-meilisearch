@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_side_by_side_side_by_sides",
+  "info": {
+    "displayName": "side-by-side",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "textEmphasis": {
+      "type": "text"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_show_collection_types_events",
+  "info": {
+    "displayName": "events",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "eventType": {
+      "type": "enumeration",
+      "enum": [
+        "isShowPastEvents",
+        "isShowUpcomingEvents"
+      ],
+      "default": "isShowPastEvents"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_show_collection_types_featured_types",
+  "info": {
+    "displayName": "featuredCollectionTypes",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "isShowFeaturedCollectionTypes": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

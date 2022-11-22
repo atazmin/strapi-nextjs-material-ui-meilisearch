@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artwork_formats",
+  "info": {
+    "singularName": "artwork-format",
+    "pluralName": "artwork-formats",
+    "displayName": "Artwork Format",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}

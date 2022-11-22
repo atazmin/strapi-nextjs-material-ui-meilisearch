@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_card_text_cards",
+  "info": {
+    "displayName": "eventCard",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "recurringHeading": {
+      "type": "string"
+    },
+    "recurringDescription": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Event",
+        "Opening",
+        "Artist Spotlight",
+        "On Exhibit"
+      ],
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

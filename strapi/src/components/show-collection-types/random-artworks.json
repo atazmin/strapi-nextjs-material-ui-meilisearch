@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_show_collection_types_random_artworks",
+  "info": {
+    "displayName": "randomArtworks",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "isShowRandomArtworks": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

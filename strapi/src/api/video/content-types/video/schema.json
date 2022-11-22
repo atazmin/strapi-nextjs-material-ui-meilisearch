@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videos",
+  "info": {
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "Video",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "head.seo"
+    },
+    "block": {
+      "type": "dynamiczone",
+      "components": [
+        "video.round-me-video",
+        "video.video",
+        "heading.page-heading",
+        "image.image-gallery"
+      ]
+    },
+    "openGraph": {
+      "type": "component",
+      "repeatable": false,
+      "component": "head.open-graph"
+    }
+  }
+}

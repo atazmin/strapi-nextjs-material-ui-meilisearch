@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_show_collection_types_clients",
+  "info": {
+    "displayName": "clients",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "isShowClients": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

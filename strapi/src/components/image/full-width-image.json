@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_image_full_width_images",
+  "info": {
+    "displayName": "fullWidthImage",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "isShowDetails": {
+      "type": "boolean",
+      "default": false
+    },
+    "isFullWidth": {
+      "type": "boolean",
+      "default": true
+    },
+    "details": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "verticalFocalPoint": {
+      "type": "integer",
+      "max": 100,
+      "min": 0,
+      "default": 50
+    }
+  }
+}

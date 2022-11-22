@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_show_collection_types_videos",
+  "info": {
+    "displayName": "videos",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "isShowVideos": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

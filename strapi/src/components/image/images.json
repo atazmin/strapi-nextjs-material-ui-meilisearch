@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_image_gallery_images",
+  "info": {
+    "displayName": "imageWithDescription",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 30
+    }
+  }
+}

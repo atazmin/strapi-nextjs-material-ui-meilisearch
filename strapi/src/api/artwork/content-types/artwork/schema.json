@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artworks",
+  "info": {
+    "singularName": "artwork",
+    "pluralName": "artworks",
+    "displayName": "Artwork",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "artwork_art_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::artwork-art-type.artwork-art-type"
+    },
+    "artwork_format": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::artwork-format.artwork-format"
+    },
+    "artwork_subject": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::artwork-subject.artwork-subject"
+    },
+    "artwork_technique": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::artwork-technique.artwork-technique"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "width": {
+      "type": "decimal"
+    },
+    "height": {
+      "type": "decimal"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "head.seo"
+    },
+    "artist": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::artist.artist",
+      "inversedBy": "artworks"
+    },
+    "openGraph": {
+      "type": "component",
+      "repeatable": false,
+      "component": "head.open-graph"
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}

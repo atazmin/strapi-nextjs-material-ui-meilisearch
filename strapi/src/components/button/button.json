@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_button_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "isOutlined": {
+      "type": "boolean",
+      "default": false
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
